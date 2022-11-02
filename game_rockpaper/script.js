@@ -14,5 +14,13 @@ function results(comp, player) {
 // memasukkan events
 const pGunting = document.querySelector('.gunting');
 pGunting.addEventListener('click', function() {
-    
+    const cComp = choiceComp();
+    const cPlayer = pGunting.className;
+    const getResults = results(cComp, cPlayer);
+
+    const imgComp = document.getElementsByClassName('comp-choice')[0];
+    imgComp.setAttribute('src', `image/${cComp}.png`);
+
+    const finalResults = document.querySelector('.results');
+    finalResults.innerHTML = getResults;
 })
