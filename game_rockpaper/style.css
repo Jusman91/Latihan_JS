@@ -58,3 +58,29 @@ img {
     justify-content: space-evenly;
     align-items: center;
 }
+.comp-score {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 3px solid red;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.player-score {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 3px solid red;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    top: 300px;
+    font-weight: bolder;
+}
