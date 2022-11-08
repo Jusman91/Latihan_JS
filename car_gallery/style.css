@@ -20,7 +20,21 @@ img {
 
 .big-img {
     height: 45vmax;
-    
+    animation: slide 3s linear infinite;
+}
+@keyframes slide {
+    0% {
+        transform: scale(1.1);
+    }
+    15% {
+        transform: scale(1);
+    }
+    85% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
 }
 .mini-img {
     display: flex;
